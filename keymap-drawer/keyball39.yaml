@@ -34,10 +34,10 @@ layers:
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - B
-  - {t: A, h: SYM}
+  - SYM
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: A, h: NUM}
+  - NUM
   - $$mdi:apple-keyboard-shift$$
   NUM:
   - '1'
