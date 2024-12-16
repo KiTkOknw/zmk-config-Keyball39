@@ -288,3 +288,7 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [2, 1]
   k: $$mdi:keyboard-tab$$
+- p: [26, 27]
+  k: LANG1
+- p: [22, 23]
+  k: LANG2
