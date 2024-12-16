@@ -495,6 +495,18 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="98" y="19" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="103" y="23" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="574" y="131" width="28" height="26" class="combo"/>
+<text x="588" y="144" class="combo tap">
+<tspan x="588" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="588" dy="1.2em" style="font-size: 75%">1</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="168" dy="1.2em" style="font-size: 75%">2</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 344)" class="layer-NUM">
@@ -711,6 +723,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="98" y="19" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="103" y="23" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="574" y="131" width="28" height="26" class="combo"/>
+<text x="588" y="144" class="combo tap">
+<tspan x="588" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="588" dy="1.2em" style="font-size: 75%">1</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="168" dy="1.2em" style="font-size: 75%">2</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -937,6 +961,18 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="98" y="19" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="103" y="23" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="574" y="131" width="28" height="26" class="combo"/>
+<text x="588" y="144" class="combo tap">
+<tspan x="588" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="588" dy="1.2em" style="font-size: 75%">1</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="168" dy="1.2em" style="font-size: 75%">2</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1031)" class="layer-FUN">
@@ -1151,6 +1187,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="98" y="19" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="103" y="23" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="574" y="131" width="28" height="26" class="combo"/>
+<text x="588" y="144" class="combo tap">
+<tspan x="588" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="588" dy="1.2em" style="font-size: 75%">1</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="168" dy="1.2em" style="font-size: 75%">2</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1379,6 +1427,18 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="98" y="19" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="103" y="23" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="574" y="131" width="28" height="26" class="combo"/>
+<text x="588" y="144" class="combo tap">
+<tspan x="588" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="588" dy="1.2em" style="font-size: 75%">1</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="168" dy="1.2em" style="font-size: 75%">2</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1719)" class="layer-SCROLL">
@@ -1595,6 +1655,18 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="98" y="19" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="103" y="23" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="574" y="131" width="28" height="26" class="combo"/>
+<text x="588" y="144" class="combo tap">
+<tspan x="588" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="588" dy="1.2em" style="font-size: 75%">1</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="168" dy="1.2em" style="font-size: 75%">2</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2063)" class="layer-SNIPE">
@@ -1810,6 +1882,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="98" y="19" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="103" y="23" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="574" y="131" width="28" height="26" class="combo"/>
+<text x="588" y="144" class="combo tap">
+<tspan x="588" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="588" dy="1.2em" style="font-size: 75%">1</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="168" dy="1.2em" style="font-size: 75%">2</tspan>
+</text>
 </g>
 </g>
 </g>
