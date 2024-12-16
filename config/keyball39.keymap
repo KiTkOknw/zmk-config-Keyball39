@@ -81,16 +81,6 @@
             bindings = <&kp TAB>;
             key-positions = <2 1>;
         };
-
-        lang1 {
-            bindings = <&kp LANG1>;
-            key-positions = <26 27>;
-        };
-
-        lang2 {
-            bindings = <&kp LANG2>;
-            key-positions = <22 23>;
-        };
     };
 
     keymap {
