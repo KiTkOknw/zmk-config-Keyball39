@@ -292,3 +292,5 @@ combos:
   k: LANGUAGE 1
 - p: [22, 23]
   k: LANGUAGE 2
+- p: [15, 16]
+  k: $$mdi:mouse-left-click-outline$$
