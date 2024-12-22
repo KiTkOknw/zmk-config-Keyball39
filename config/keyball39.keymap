@@ -14,7 +14,7 @@
 #include <interfaces/hid-trackball.dtsi>
 
 &hid_trackball_interface {
-    automouse-layer = <3>;
+    automouse-layer = <FUN>;
 };
 
 &lt {
