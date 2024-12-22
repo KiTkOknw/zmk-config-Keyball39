@@ -15,9 +15,6 @@
 
 &hid_trackball_interface {
     automouse-layer = <3>;
-    automouse-layer-timeout-ms = <600>;
-    scroll-layers = <3>;
-    snipe-layers = <3>;
 };
 
 &lt {
