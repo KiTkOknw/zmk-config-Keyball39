@@ -60,6 +60,13 @@
     };
 };
 
+&auto_layer {
+    continue-list = <LCLK RCLK>; // Keep layer active while these buttons are pressed
+    ignore-alphas = <3>; // Do not deactivate on alphabetic key presses
+    ignore-numbers = <3>; // Do not deactivate on numeric key presses
+    ignore-modifiers = <3>; // Do not deactivate on modifier key presses
+};
+
 / {
   trackball_listener {
     compatible = "zmk,input-listener";
