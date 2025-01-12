@@ -47,6 +47,12 @@
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+        auto_mouse: auto_mouse {
+            compatible = "zmk,behavior-auto-layer";
+            #binding-cells = <1>;
+            bindings = <&mkp LCLK>, <&mkp RCLK>;
+            ignore-modifiers;
+        };
     };
 
     macros {
