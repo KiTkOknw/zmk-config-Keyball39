@@ -47,6 +47,13 @@
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        mouse_layer: mouse_layer {
+            compatible = "zmk,behavior-auto-layer";
+            #binding-cells = <0>;
+            continue-list = <MOVE_UP MOVE_DOWN MOVE_LEFT MOVE_RIGHT SCROLL_UP SCROLL_DOWN>;
+            ignore-modifiers;
+        };
     };
 
     macros {
