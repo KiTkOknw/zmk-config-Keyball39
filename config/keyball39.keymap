@@ -25,7 +25,7 @@
 };
 
 &caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS>; };
-&auto_mouse_layer FUN;
+&auto_mouse_layer FUN
 
 / {
     // custom shift using mod-morph 
