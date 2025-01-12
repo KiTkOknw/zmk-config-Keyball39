@@ -25,6 +25,7 @@
 };
 
 &caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS>; };
+&auto_mouse_layer FUN;
 
 / {
     // custom shift using mod-morph 
@@ -48,9 +49,9 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        mouse_layer: mouse_layer {
+        auto_mouse_layer: auto_mouse_layer {
             compatible = "zmk,behavior-auto-layer";
-            #binding-cells = <0>;
+            #binding-cells = <1>;
             continue-list = <LCLK RCLK>;
             ignore-modifiers;
         };
