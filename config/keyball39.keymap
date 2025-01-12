@@ -51,7 +51,7 @@
     auto_mouse_layer: auto_mouse_layer {
       compatible = "zmk,behavior-auto-layer";
       #binding-cells = <1>;
-      continue-list = <LCLK RCLK>;
+      continue-list = <&mkp LCLK &mkp RCLK>;
       ignore-modifiers;
     };
     };
