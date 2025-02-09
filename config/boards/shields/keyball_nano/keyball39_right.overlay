@@ -57,7 +57,7 @@
         scroll-layers = <5>;
 	snipe-layers = <6>;
         automouse-layer = <3>;
-        continue-list = <LCLK RCLK>;
+        continue-list = <151 152>;
     };
 };
 
