@@ -57,7 +57,7 @@
         scroll-layers = <5>;
 	snipe-layers = <6>;
         automouse-layer = <3>;
-        continue_list = [KC_A, KC_B, KC_C]; 
+        continue_list = <KC_A, KC_B, KC_C>; 
     };
 };
 
