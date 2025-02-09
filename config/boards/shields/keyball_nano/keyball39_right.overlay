@@ -57,7 +57,7 @@
         scroll-layers = <5>;
 	snipe-layers = <6>;
         automouse-layer = <3>;
-        continue-list = <&kp KC_BTN1>, <&kp KC_BTN2>;
+        continue-list = <&mkp LCLK &mkp RCLK>;
     };
 };
 
