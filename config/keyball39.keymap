@@ -52,6 +52,15 @@
 
 / {
     // custom shift using mod-morph 
+    //コロンセミコロン
+    jis_SEMI: jis_SEMI {
+        compatible = "zmk,behavior-mod-morph";
+        label = "jis_SEMI";
+        #binding-cells = <0>;
+        bindings = <&kp SEMI>, <&kp SQT>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+        // keep-mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
 
     behaviors {
         cmqus: comma_question {
@@ -126,16 +135,6 @@ gui_semi: gui_semicolon_colon {
             bindings = <&caps_word>;
             key-positions = <20 29>;
         };
-    };
-
-    //コロンセミコロン
-    jis_SEMI: jis_SEMI {
-        compatible = "zmk,behavior-mod-morph";
-        label = "jis_SEMI";
-        #binding-cells = <0>;
-        bindings = <&kp SEMI>, <&kp SQT>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-        // keep-mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     keymap {
