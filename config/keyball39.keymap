@@ -75,7 +75,7 @@ gui_semi: gui_semicolon_colon {
     compatible = "zmk,behavior-hold-tap";
     label = "GUI_SEMICOLON_COLON";
     #binding-cells = <2>;
-    bindings = <&kp RGUI>, <&jis_SEMI>;
+    bindings = <&kp RMETA>, <&jis_SEMI>;
     tapping-term-ms = <200>;
 };
     };
