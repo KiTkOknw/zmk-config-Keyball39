@@ -61,6 +61,13 @@
         mods = <(MOD_LSFT|MOD_RSFT)>;
         // keep-mods = <(MOD_LSFT|MOD_RSFT)>;
     };
+    bspc_del: backspace_delete {
+        compatible = "zmk,behavior-mod-morph";
+        label = "BACKSPACE_DELETE";
+        #binding-cells = <0>;
+        bindings = <&kp BACKSPACE>, <&kp DELETE>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
 
     behaviors {
         cmqus: comma_question {
@@ -84,7 +91,7 @@ lt_bspc: layer_tap_bspc_del {
     compatible = "zmk,behavior-hold-tap";
     label = "LAYER_TAP_BACKSPACE_DELETE";
     #binding-cells = <2>;
-    bindings = <&mo>, <&&jis_SEMI>;
+    bindings = <&mo>, <&bspc_del>;
     tapping-term-ms = <200>;
 };
 gui_semi: gui_semicolon_colon {
