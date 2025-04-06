@@ -36,13 +36,13 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>; // タップとホールドの判定時間
             flavor = "hold-preferred"; // ホールド優先
-            bindings = <&kp RMETA>, <&mod_morph_behavior>;
+            bindings = <&mod_morph_behavior>, <&kp TAB>;
         };
 
         mod_morph_behavior: mod_morph {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp SEMI>, <&kp SQT>;
+            bindings = <&kp ESC>, <&kp GRAVE>;
             mods = <(MOD_LSFT | MOD_RSFT)>; // Shiftキーが押された場合に動作変更
         };
         cmqus: comma_question {
