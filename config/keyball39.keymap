@@ -33,7 +33,7 @@
         mt_mod_morph: mod_tap_with_morph {
             compatible = "zmk,behavior-hold-tap";
             label = "MOD_TAP_WITH_MORPH";
-            #binding-cells = <2>;
+            #binding-cells = <0>;
             tapping-term-ms = <200>; // タップとホールドの判定時間
             flavor = "hold-preferred"; // ホールド優先
             bindings = <&mod_morph_behavior>, <&kp TAB>;
