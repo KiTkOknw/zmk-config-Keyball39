@@ -84,7 +84,7 @@ gui_semi: gui_semicolon_colon {
     compatible = "zmk,behavior-hold-tap";
     label = "GUI_SEMICOLON_COLON";
     #binding-cells = <2>;
-    bindings = <&mt, <&jis_SEMI>;
+    bindings = <&mt>, <&jis_SEMI>;
     tapping-term-ms = <200>;
 };
     };
