@@ -47,15 +47,6 @@
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-    //コロンセミコロン
-    jis_SEMI: jis_SEMI {
-        compatible = "zmk,behavior-mod-morph";
-        label = "jis_SEMI";
-        #binding-cells = <0>;
-        bindings = <&kp SEMI>, <&kp SQT>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-        // keep-mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
     };
 
     macros {
