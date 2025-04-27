@@ -48,19 +48,17 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     //コロンセミコロン
-    jis_SEMI: jis_SEMI {
+    my_mod_morph: mod_morph_example {
         compatible = "zmk,behavior-mod-morph";
-        label = "jis_SEMI";
-        #binding-cells = <0>;
-        bindings = <&kp SEMI>, <&kp SQT>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-        // keep-mods = <(MOD_LSFT|MOD_RSFT)>;
+        bindings = <&kp A>, <&kp B>; // Aは通常のタップ、Bは修飾キーを押したときの動作
+        mods = <(MOD_LSFT | MOD_RSFT)>; // Shiftキーが押されているときにBを発動
     };
+
     my_hold_tap: linger_keys {
         compatible = "zmk,behavior-hold-tap";
         label = "HOLD_TAP_EXAMPLE";
-        tapping-term-ms = <200>; // ホールドとタップの判定時間
-        bindings = <&kp RMETA>, <&jis_SEMI>; // モッドモーフをホールド時に使用、タップ時はCを出力
+        tapping-term-ms = <300>; // ホールドとタップの判定時間
+        bindings = <&my_mod_morph>, <&kp C>; // モッドモーフをホールド時に使用、タップ時はCを出力
     };
     };
 
