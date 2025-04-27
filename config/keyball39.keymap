@@ -60,7 +60,7 @@
         compatible = "zmk,behavior-hold-tap";
         label = "LAYER_TAP_BACKSPACE_DELETE";
         #binding-cells = <0>;
-        bindings = <&kp RMETA>, <&jis_SEMI>;
+        bindings = <&kp C>, <&jis_SEMI>;
         tapping-term-ms = <200>;
     };
     };
