@@ -47,17 +47,21 @@
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-    //コロンセミコロン
     my_mod_morph: mod_morph_example {
         compatible = "zmk,behavior-mod-morph";
-        bindings = <&kp A>, <&kp B>; // Aは通常のタップ、Bは修飾キーを押したときの動作
-        mods = <(MOD_LSFT | MOD_RSFT)>; // Shiftキーが押されているときにBを発動
+        bindings = <&kp ESC>, <&kp GRAVE>;
+        mods = <(MOD_LSFT|MOD_LGUI)>;
     };
 
     my_hold_tap: linger_keys {
         compatible = "zmk,behavior-hold-tap";
         tapping-term-ms = <300>; // ホールドとタップの判定時間
         bindings = <&my_mod_morph>, <&kp C>; // モッドモーフをホールド時に使用、タップ時はCを出力
+    };
+    my_hold_tap: hold_tap_example {
+        compatible = "zmk,behavior-hold-tap";
+        bindings = <&my_mod_morph>, <&kp SOME_OTHER_KEY>;
+        tapping-term-ms = <200>; // タップとホールドの判定時間
     };
     };
 
