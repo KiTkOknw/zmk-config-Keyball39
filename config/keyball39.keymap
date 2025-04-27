@@ -59,7 +59,8 @@
     lt_bspc: layer_tap_bspc_del {
         compatible = "zmk,behavior-hold-tap";
         label = "LAYER_TAP_BACKSPACE_DELETE";
-        bindings = <&kp C>, <&jis_SEMI>;
+        #binding-cells = <2>;
+        bindings = <&mo>, <&jis_SEMI>;
         tapping-term-ms = <200>;
     };
     };
