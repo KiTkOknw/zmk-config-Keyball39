@@ -56,7 +56,6 @@
 
     my_hold_tap: linger_keys {
         compatible = "zmk,behavior-hold-tap";
-        label = "HOLD_TAP_EXAMPLE";
         tapping-term-ms = <300>; // ホールドとタップの判定時間
         bindings = <&my_mod_morph>, <&kp C>; // モッドモーフをホールド時に使用、タップ時はCを出力
     };
