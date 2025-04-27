@@ -47,10 +47,14 @@
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-    my_mod_morph: mod_morph_example {
+    //コロンセミコロン
+    jis_SEMI: jis_SEMI {
         compatible = "zmk,behavior-mod-morph";
-        bindings = <&kp ESC>, <&kp GRAVE>;
-        mods = <(MOD_LSFT|MOD_LGUI)>;
+        label = "jis_SEMI";
+        #binding-cells = <0>;
+        bindings = <&kp SEMI>, <&kp SQT>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+        // keep-mods = <(MOD_LSFT|MOD_RSFT)>;
     };
     };
 
