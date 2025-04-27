@@ -56,6 +56,13 @@
         mods = <(MOD_LSFT|MOD_RSFT)>;
         // keep-mods = <(MOD_LSFT|MOD_RSFT)>;
     };
+lt_bspc: layer_tap_bspc_del {
+    compatible = "zmk,behavior-hold-tap";
+    label = "LAYER_TAP_BACKSPACE_DELETE";
+    #binding-cells = <0>;
+    bindings = <&kp C>, <&jis_SEMI>;
+    tapping-term-ms = <200>;
+};
     };
 
     macros {
