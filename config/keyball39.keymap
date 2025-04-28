@@ -195,7 +195,7 @@
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &mkp_exit_AML LCLK  &mkp_exit_AML RCLK &trans  &trans                          &trans  
+&trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK &trans  &trans                          &trans  
             >;
         };
         mouse_layer {
