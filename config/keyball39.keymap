@@ -60,8 +60,8 @@
 lt_bspc: layer_tap_bspc_del {
     compatible = "zmk,behavior-hold-tap";
     label = "LAYER_TAP_BACKSPACE_DELETE";
-    #binding-cells = <0>;
-    bindings = <&kp A &kp B>;
+    #binding-cells = <2>;
+    bindings = <&mt>, <&jis_SEMI>;
     tapping-term-ms = <200>;
 };
     };
@@ -121,7 +121,7 @@ lt_bspc: layer_tap_bspc_del {
             label = "QWRT";
             bindings = <
 &kp Q       &kp W           &kp E        &kp R        &kp T                        &kp Y  &kp U        &kp I         &kp O            &kp P
-&mt LGUI A  &mt LEFT_ALT S  &mt LSHFT D  &mt LCTRL F  &kp G                        &kp H  &mt RCTRL J  &mt RSHIFT K  &mt RIGHT_ALT L  &lt_bspc
+&mt LGUI A  &mt LEFT_ALT S  &mt LSHFT D  &mt LCTRL F  &kp G                        &kp H  &mt RCTRL J  &mt RSHIFT K  &mt RIGHT_ALT L  &lt_bspc RMETA 0
 &kp Z       &kp X           &kp C        &kp V        &kp B                        &kp N  &kp M        &kp COMMA     &kp DOT          &kp SLASH
 &mo 3      &none           &none        &mo 5        &mo 2  &kp SPACE              &kp ENTER  &mo 1                                   &tog 3
             >;
