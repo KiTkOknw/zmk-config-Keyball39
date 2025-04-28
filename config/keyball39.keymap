@@ -47,22 +47,18 @@
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-    //コロンセミコロン
-    jis_SEMI: jis_SEMI {
-        compatible = "zmk,behavior-mod-morph";
-        label = "jis_SEMI";
-        #binding-cells = <0>;
-        bindings = <&kp SEMI>, <&kp SQT>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-        // keep-mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    lt_bspc: layer_tap_bspc_del {
-        compatible = "zmk,behavior-hold-tap";
-        label = "LAYER_TAP_BACKSPACE_DELETE";
-        #binding-cells = <0>;
-        bindings = <&kp RGUI>, <&jis_SEMI>;
-        tapping-term-ms = <200>;
-    };
+
+        my_mod_tap: mod_tap {
+            compatible = "zmk,behavior-mod-tap";
+            bindings = <&kp A>, <&kp B>;
+        };
+
+        my_mod_morph: mod_morph {
+            compatible = "zmk,behavior-mod-morph";
+            bindings = <&my_mod_tap>, <&kp C>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
     };
 
     macros {
