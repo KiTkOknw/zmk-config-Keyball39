@@ -48,12 +48,15 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-// mod-morph定義例（Shift押下時に記号化）
-jis_N2: jis_N2 {
-    compatible = "zmk,behavior-mod-morph";
-    bindings = <&kp N2>, <&kp LBKT>; // 通常:2 / Shift+:[
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-};
+    //コロンセミコロン
+    jis_SEMI: jis_SEMI {
+        compatible = "zmk,behavior-mod-morph";
+        label = "jis_SEMI";
+        #binding-cells = <0>;
+        bindings = <&kp SEMI>, <&kp SQT>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+        // keep-mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
 
     };
 
