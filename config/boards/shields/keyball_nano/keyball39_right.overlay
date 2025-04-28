@@ -57,7 +57,7 @@
         scroll-layers = <5>;
 	snipe-layers = <6>;
         automouse-layer = <3>;
-        automouse-layer-timeout-ms = <600>; /
+        automouse-layer-timeout-ms = <600>;
     };
 };
 
