@@ -48,19 +48,12 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-    my_mod_morph: mod_morph {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp A>, <&kp B>; // Aは通常、BはShift押下時
-        mods = <(MOD_LSFT)>;
-    };
-
-    my_hold_tap: hold_tap {
-        compatible = "zmk,behavior-hold-tap";
-        #binding-cells = <2>;
-        bindings = <&my_mod_morph>, <&kp C>; // mod morphをホールド時に使用
-        tapping-term-ms = <200>; // タップとホールドの判定時間
-    };
+// mod-morph定義例（Shift押下時に記号化）
+jis_N2: jis_N2 {
+    compatible = "zmk,behavior-mod-morph";
+    bindings = <&kp N2>, <&kp LBKT>; // 通常:2 / Shift+:[
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
 
     };
 
