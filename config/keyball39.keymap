@@ -58,10 +58,10 @@
         // keep-mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 lt_bspc: layer_tap_bspc_del {
-    compatible = "zmk,behavior-mod-tap";
+    compatible = "zmk,behavior-hold-tap";
     label = "LAYER_TAP_BACKSPACE_DELETE";
-    #binding-cells = <1>;
-    bindings = <&jis_SEMI>;
+    #binding-cells = <0>;
+    bindings = <&kp A>, <&kp B>;
     tapping-term-ms = <200>;
 };
     };
