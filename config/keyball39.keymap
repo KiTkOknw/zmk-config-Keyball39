@@ -158,12 +158,12 @@
         };
 
         lang1 {
-            bindings = <&kp LANGUAGE_1>;
+            bindings = <&mkp RCLK>;
             key-positions = <26 27>;
         };
 
         lang2 {
-            bindings = <&kp LANGUAGE_2>;
+            bindings = <&mkp LCLK>;
             key-positions = <22 23>;
         };
 
