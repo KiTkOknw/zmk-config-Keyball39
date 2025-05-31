@@ -90,10 +90,7 @@
             label = "MOD_TAP_JIS_SEMI";
             #binding-cells = <2>;
             bindings = <&kp>, <&jis_semi>;
-            tapping-term-ms = <150>;
-flavor = "tap-preferred";
-quick-tap-ms = <200>;
-hold-trigger-key-positions = <0 1 2 3 4 5>;
+            tapping-term-ms = <200>;
         };
 
         mt_lang2: mt_lang2 {
@@ -111,26 +108,6 @@ hold-trigger-key-positions = <0 1 2 3 4 5>;
             bindings = <&mo>, <&kp>;
             tapping-term-ms = <200>;
         };
-
-      lh_pht: home_row_left_mod_tap {
-        compatible = "zmk,behavior-hold-tap";
-        #binding-cells = <2>;
-        flavor = "tap-preferred";
-        tapping-term-ms = <150>;
-        quick-tap-ms = <200>;
-        bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <6 7 8 9 10 11>;
-      };
-
-      rh_pht: home_row_right_mod_tap {
-        compatible = "zmk,behavior-hold-tap";
-        #binding-cells = <2>;
-        flavor = "tap-preferred";
-        tapping-term-ms = <150>;
-        quick-tap-ms = <200>;
-        bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <0 1 2 3 4 5>;
-      };
     };
 
     macros {
@@ -203,7 +180,7 @@ hold-trigger-key-positions = <0 1 2 3 4 5>;
             label = "QWRT";
             bindings = <
 &kp Q       &kp W           &kp E        &kp R        &kp T                        &kp Y  &kp U        &kp I         &kp O            &kp P
-&lh_pht LGUI A  &lh_pht LEFT_ALT S  &lh_pht LSHFT D  &lh_pht LCTRL F  &kp G                        &kp H  &rh_pht RCTRL J  &rh_pht RSHIFT K  &rh_pht RIGHT_ALT L  &mt_semi RMETA 0
+&mt LGUI A  &mt LEFT_ALT S  &mt LSHFT D  &mt LCTRL F  &kp G                        &kp H  &mt RCTRL J  &mt RSHIFT K  &mt RIGHT_ALT L  &mt_semi RMETA 0
 &kp Z       &kp X           &kp C        &kp V        &kp B                        &kp N  &kp M        &mkp LCLK     &mkp RCLK        &kp SLASH
 &mo 3       &none           &none        &mo 5        &mo 2 &kp SPACE              &kp ENTER  &mo 1                                   &tog 3
             >;
