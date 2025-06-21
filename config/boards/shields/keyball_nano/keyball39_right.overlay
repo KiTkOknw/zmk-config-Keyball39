@@ -5,7 +5,7 @@
  */
  
 #include "keyball39.dtsi"
-#include <input/processors.dtsi>,
+#include <input/processors.dtsi>
 
 &default_transform {
     col-offset = <6>;
@@ -65,6 +65,6 @@
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
-    input-processors = <&zip_temp_layer 5 250>;
+    input-processors = <&, 5 250>;
   };
 };
