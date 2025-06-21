@@ -212,7 +212,7 @@
             bindings = <
 &kp Q       &kp W           &kp E        &kp R        &kp T                        &kp Y  &kp U        &kp I         &kp O            &kp P
 &hml LGUI A  &hml LEFT_ALT S  &hml LSHFT D  &hml LCTRL F  &kp G                    &kp H  &hml RCTRL J  &hml RSHIFT K  &hml RIGHT_ALT L  &mt_semi RMETA 0
-&kp Z       &kp X           &kp C        &kp V        &kp B                        &kp N  &kp M        &mkp LCLK     &mkp RCLK        &kp SLASH
+&kp Z       &kp X           &kp C        &kp V        &kp B                        &kp N  &kp M        &kp COMMA     &kp DOT          &kp SLASH
 &mo 3       &none           &none        &mo 5        &mo 2 &kp SPACE              &kp ENTER  &mo 1                                   &tog 3
             >;
         };
@@ -231,8 +231,8 @@
             label = "SYM";
             bindings = <
 &kp EXCLAMATION  &kp JP_AT     &kp HASH           &kp DOLLAR    &kp PERCENT                  &kp JP_CARET     &kp JP_AMPERSAND  &kp JP_ASTERISK &kp JP_LPAREN    &kp JP_RPAREN
-&kp DOT          &kp COMMA     &kp JP_YEN         &kp JP_QUOTE  &trans                       &kp JP_BACKQUOTE &kp MINUS         &kp JP_EQUAL    &kp JP_LBRACKET  &kp JP_RBRACKET
-&kp LESS_THAN &kp GREATER_THAN &kp JP_PIPE        &kp JP_DQUOTE &trans                       &kp JP_TILDE     &kp JP_UNDERSCORE &kp JP_PLUS     &kp JP_LBRACE    &kp JP_RBRACE
+&trans           &kp BSLH      &kp SQT            &trans        &trans                       &kp JP_BACKQUOTE &kp MINUS         &kp JP_EQUAL    &kp JP_LBRACKET  &kp JP_RBRACKET
+&trans           &kp PIPE      &kp DOUBLE_QUOTES  &trans        &trans                       &kp JP_TILDE     &kp JP_UNDERSCORE &kp JP_PLUS     &kp JP_LBRACE    &kp JP_RBRACE
 &trans           &trans        &trans             &trans        &trans       &trans          &trans   &trans                                                 &trans
             >;
         };
