@@ -56,7 +56,7 @@
         irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         scroll-layers = <5>;
 	snipe-layers = <6>;
-        automouse-layer = <3>;
+        //automouse-layer = <3>;
     };
 };
 
@@ -64,5 +64,6 @@
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
+    input-processors = <&zip_temp_layer 5 250>;
   };
 };
