@@ -5,7 +5,7 @@
  */
  
 #include "keyball39.dtsi"
-#include <zephyr/dt-bindings/input/input-event-codes.h>
+#include <input/processors.dtsi>
 
 &default_transform {
     col-offset = <6>;
