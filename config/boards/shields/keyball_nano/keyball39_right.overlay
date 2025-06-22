@@ -73,10 +73,7 @@
         device = <&trackball>;
         input-processors = <&zip_temp_layer 3 400>;
     };
-    /omit-if-no-ref/ mkp_input_listener: mkp_input_listener {
-        compatible = "zmk,input-processor-temp-layer";
-        #input-processor-cells = <2>;
-    };
+
 mkp_input_listener {
     input-processors = <&zip_temp_layer 3 400>;
 };
