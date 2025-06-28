@@ -65,7 +65,7 @@
     quick-tap-ms = <150>;
 };
 
-&caps_word { continue-list = <JP_UNDERSCORE BACKSPACE DELETE MINUS>; };
+&caps_word { continue-list = <BACKSPACE DELETE MINUS JP_UNDERSCORE>; };
 
 &sl { release-after-ms = <2000>; };
 
