@@ -53,23 +53,23 @@
 // Source unicode-chars for desired languages
 #include "zmk-helpers/unicode-chars/german.dtsi"
 
-&lt {
-    tapping-term-ms = <240>;
-    flavor = "balanced";
-    quick-tap-ms = <150>;
-};
+//&lt {
+//    tapping-term-ms = <240>;
+//    flavor = "balanced";
+//    quick-tap-ms = <150>;
+//};
 
-&mt {
-    tapping-term-ms = <200>;
-    flavor = "tap-preferred";
-    quick-tap-ms = <150>;
-};
+//&mt {
+//    tapping-term-ms = <200>;
+//    flavor = "tap-preferred";
+//    quick-tap-ms = <150>;
+//};
 
 &caps_word { 
     continue-list = <BACKSPACE DELETE MINUS 0x89>; 
 };
 
-&sl { release-after-ms = <2000>; };
+// &sl { release-after-ms = <2000>; };
 
 / {
     // custom shift using mod-morph 
@@ -338,7 +338,7 @@
             bindings = <
 &kp EXCLAMATION  &kp JP_AT     &kp HASH           &kp DOLLAR    &kp PERCENT                  &kp JP_CARET     &kp JP_AMPERSAND  &kp JP_ASTERISK &kp JP_LPAREN    &kp JP_RPAREN
 &trans           &trans        &kp JP_YEN         &kp JP_QUOTE  &trans                       &kp JP_BACKQUOTE &kp MINUS         &kp JP_EQUAL    &kp JP_LBRACKET  &kp JP_RBRACKET
-&trans           &trans        &kp JP_PIPE        &kp JP_DQUOTE &trans                       &kp JP_TILDE     &kp JP_UNDERSCORE &kp JP_PLUS     &kp JP_LBRACE    &kp JP_RBRACE
+&trans           &trans        &kp JP_PIPE        &kp JP_DQUOTE &trans                       &kp JP_TILDE     &kp 0x87 &kp JP_PLUS     &kp JP_LBRACE    &kp JP_RBRACE
 &trans           &trans        &trans             &trans        &trans       &trans          &trans   &trans                                                 &trans
             >;
         };
