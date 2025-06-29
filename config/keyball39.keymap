@@ -67,7 +67,6 @@
 
 &caps_word { 
     continue-list = <BACKSPACE DELETE MINUS LSHFT RSHFT 0x87>; 
-    mods=<MOD_LSFT>;
 };
 
 &sl { release-after-ms = <2000>; };
