@@ -67,7 +67,6 @@
 
 &caps_word { 
     continue-list = <BACKSPACE DELETE MINUS LSHIFT 0x87>; 
-    mods = <>;
 };
 
 // &sl { release-after-ms = <2000>; };
