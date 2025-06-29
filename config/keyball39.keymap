@@ -65,7 +65,10 @@
     quick-tap-ms = <150>;
 };
 
-&caps_word { continue-list = <BACKSPACE DELETE MINUS JP_UNDERSCORE>; };
+&caps_word { 
+    continue-list = <BACKSPACE DELETE MINUS JP_UNDERSCORE>; 
+    mods=<MOD_LSFT>;
+};
 
 &sl { release-after-ms = <2000>; };
 
