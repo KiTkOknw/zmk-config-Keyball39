@@ -19,7 +19,7 @@
 #define JP_COLON        SINGLE_QUOTE      // :
 #define JP_ASTERISK     DOUBLE_QUOTES     // *
 #define JP_BACKQUOTE    LEFT_BRACE        // `
-#define JP_UNDERSCORE   LS(KC_MINS)       // _
+#define JP_UNDERSCORE   LS(0x87)          // _
 #define JP_LBRACKET     RIGHT_BRACKET     // [
 #define JP_RBRACKET     BACKSLASH         // ]
 #define JP_LPAREN       ASTERISK          // (
@@ -66,7 +66,7 @@
 };
 
 &caps_word { 
-    continue-list = <BACKSPACE DELETE MINUS>; 
+    continue-list = <BACKSPACE DELETE MINUS JP_UNDERSCORE>; 
 };
 
 &sl { release-after-ms = <2000>; };
