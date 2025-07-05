@@ -34,7 +34,7 @@
 #define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29  // Right-hand keys.
 #define KEYS_T 33 34 35 36 37 38                        // Thumb keys.
 
-#define HM_TAPPING_TERM 300
+#define HM_TAPPING_TERM 200
 #define HM_TAPPING_TERM_FAST 200
 #define HM_PRIOR_IDLE 150
 
@@ -122,7 +122,7 @@
             #binding-cells = <2>;
             bindings = <&kp>, <&jis_semi>;
             tapping-term-ms = <HM_TAPPING_TERM>;
-            quick-tap-ms = <175>;
+            //quick-tap-ms = <175>;
             require-prior-idle-ms = <HM_PRIOR_IDLE>;
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
             hold-trigger-on-release;
@@ -188,7 +188,7 @@
 
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
-            quick-tap-ms = <175>;                // repeat on tap-into-hold
+            //quick-tap-ms = <175>;                // repeat on tap-into-hold
             require-prior-idle-ms = <HM_PRIOR_IDLE>;
 
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
@@ -202,7 +202,7 @@
 
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
-            quick-tap-ms = <175>;
+            //quick-tap-ms = <175>;
             require-prior-idle-ms = <HM_PRIOR_IDLE>;
 
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
@@ -220,7 +220,7 @@
 
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM_FAST>;
-            quick-tap-ms = <175>;
+            //quick-tap-ms = <175>;
             require-prior-idle-ms = <HM_PRIOR_IDLE>;
 
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
@@ -234,7 +234,7 @@
 
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM_FAST>;
-            quick-tap-ms = <175>;
+            //quick-tap-ms = <175>;
             require-prior-idle-ms = <HM_PRIOR_IDLE>;
 
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
@@ -257,7 +257,7 @@
 
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
-            quick-tap-ms = <200>;
+            //quick-tap-ms = <200>;
         };
     };
 
